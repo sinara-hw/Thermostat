@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceVariant value="Cortex M.TM4C1294NCPDT"/>
+	<deviceFamily value="TMS470"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="5.1.8"/>
+	<isElfFormat value="true"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<origin value="C:/Users/walde/Desktop/thermostat_max"/>
+	<isTargetManual value="false"/>
+	<connection value="common/targetdb/connections/segger_j-link_connection.xml"/>
+</projectOptions>

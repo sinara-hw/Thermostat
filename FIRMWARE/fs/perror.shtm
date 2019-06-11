@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Sinara Thermostat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <script src="javascript.js" language="JavaScript1.2" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="heading">
+      <table width="100%">
+        <tr>
+          <td>
+            <a id="heading_ti" target="_" href="https://m-labs.hk/artiq/sinara.html">
+              <img src="sinara_logo.png" alt="Sinara hardware" height="150px">
+            </a>
+          </td>
+          <td width="100%">
+            <div id="heading_h1">
+              Sinara Thermostat
+            </div>
+            <div id="heading_h2">
+              2-channel temperature controller EEM based on MAX1968
+            </div>
+          </td>
+        </tr>
+      </table>
+      <hr><hr>
+    </div>
+    <div id="menu">
+      <ul>
+		<li><a href="tempstat.shtm" id="tempstat">Temperature status</a></li>
+        <li><a href="status.shtm" id="status">Connection Status</a></li>
+        <li><a href="config0.shtm" id="config0">Port 0 Settings</a></li>
+        <li><a href="config1.shtm" id="config1">Port 1 Settings</a></li>
+        <li><a href="misc.shtm" id="misc">Miscellaneous Settings</a></li>
+		<li><a href="tec0.shtm" id="tec0">CH 0 TEC settings</a></li>
+		<li><a href="tec1.shtm" id="tec1">CH 1 TEC settings</a></li>
+		<li><a href="calib0.shtm" id="tec0">CH 0 calibration</a></li>
+		<li><a href="calib1.shtm" id="tec1">CH 1 calibration</a></li>
+		<li><a href="temp0.shtm" id="temp0">CH 0 Temperature settings</a></li>
+		<li><a href="temp1.shtm" id="temp1">CH 1 Temperature settings</a></li>
+		<li><a href="cl0.shtm" id="cl0">CH 0 Control loop settings</a></li>
+		<li><a href="cl1.shtm" id="cl1">CH 1 Control loop settings</a></li>
+		<li><a href="mqtt.shtm" id="mqtt">MQTT status</a></li>
+		<form name="saveall" action="saveall.cgi" method="get">
+					<input name="saveall" value="1" type="hidden">
+					<td>
+                      <button name="mysubmit" value="save">Save current parameters</button>
+                    </td>
+		</form>
+		<form name="soft_reset" action="soft_reset.cgi" method="get">
+					<input name="soft_reset" value="1" type="hidden">
+					<td>
+                      <button name="mysubmit" value="Reset">Reset device</button>
+                    </td>
+		</form>
+      </ul>
+    </div>
+    <div id="content">
+            <table width="100%">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" width="75%">
+                        <center>
+                            <h2 align="center">Parameter Error</h2>
+                        </center>
+                        <hr size="2" width="100%">
+                        <p align="center"></p>
+                        <p align="center">One of the parameters
+                            <br>was either missing, invalid or out of range.&nbsp;</p>
+                        <p align="center">Please try again!
+                            <br>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="footing">
+      <hr><hr>
+    </div>
+  </body>
+</html>

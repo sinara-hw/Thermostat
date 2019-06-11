@@ -1,0 +1,161 @@
+
+/* Styling for the entire document. */
+body
+{
+    background-color: #f4fafd;
+    color: #0f1e32;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+/* Styling for the heading div. */
+#heading
+{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#heading_h1
+{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#heading_h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#heading hr
+{
+    border-bottom: 1px solid #b47b44;
+    border-top: 1px solid #b47b44;
+}
+
+#heading a img
+{
+    border: 0;
+}
+
+/* Styling for the menu div. */
+#menu
+{
+    float: left;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a:link, #menu a:visited
+{
+    background-color: #5886af;
+    color: #f4fafd;
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#menu a:hover, #menu a:active
+{
+    background-color: #0f1e32;
+}
+
+/* Styling for the content div. */
+#content
+{
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+#content_heading
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styling for the footing div. */
+#footing
+{
+    clear: both;
+    font-size: .75em;
+    font-style: italic;
+    text-align: right;
+}
+
+#footing hr
+{
+    border-bottom: 1px solid #b47b44;
+    border-top: 1px solid #b47b44;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #7c7c7c;
+  border: none;
+  color: white;
+  padding: 5px 67px;
+  text-decoration: none;
+  margin: 0px 0px;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #3c3c3c;
+  border: none;
+  color: white;
+  padding: 5px 67px;
+  text-decoration: none;
+  margin: 0px 0px;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+button {
+  background-color: #7c7c7c;
+  border: none;
+  color: white;
+  width: 208px;
+  height: 25px;
+  text-decoration: none;
+  margin: 1px 1px;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+button:hover {
+  background-color: #3c3c3c;
+  border: none;
+  color: white;
+  width: 208px;
+  height: 25px;
+  text-decoration: none;
+  margin: 1px 1px;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+/* Colors used in tables */
+.grey {
+    background-color: #eac77d;
+    color: white;
+}
+
+.gr {
+    background-color: #b47b44;
+    color: white;
+    text-align: right;
+}
+
