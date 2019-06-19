@@ -34,7 +34,7 @@
 
 
 #define STACKSIZE_PIDTASK    512
-#define UPDATE_TIME 75 // time in ms beetween updates of temperature / peltier current
+#define UPDATE_TIME 1 // time in ms beetween updates of temperature / peltier current
 
 int32_t pid_t0, pid_t1;
 int32_t pid_dt0, pid_dt1;               // ADC updates at 10Hz
