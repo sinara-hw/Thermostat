@@ -173,6 +173,19 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KGLKECSA
 
+[ProjectVariant1]
+UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
+Description=standard
+AllowFabrication=0
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
+Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
+Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=1|AlternatePart= 
+Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=1|AlternatePart= 
+Variation5=Designator=J6|UniqueId=\EYZEVIAD|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -305,7 +318,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series Printer
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
