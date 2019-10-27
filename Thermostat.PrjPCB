@@ -175,15 +175,39 @@ DocumentUniqueId=KGLKECSA
 
 [ProjectVariant1]
 UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
-Description=standard
+Description=Panel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=11
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
-Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=1|AlternatePart= 
-Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=1|AlternatePart= 
-Variation5=Designator=J6|UniqueId=\EYZEVIAD|Kind=1|AlternatePart= 
+Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
+Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=0|AlternatePart= 
+Variation5=Designator=J6|UniqueId=\EYZEVIAD|Kind=0|AlternatePart= 
+Variation6=Designator=J2|UniqueId=\FLOIEEBE|Kind=0|AlternatePart= 
+Variation7=Designator=J4|UniqueId=\TTRYMYHI|Kind=1|AlternatePart= 
+Variation8=Designator=J5|UniqueId=\GDIFAEDX|Kind=1|AlternatePart= 
+Variation9=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart= 
+Variation10=Designator=J8|UniqueId=\FUIRURWW|Kind=1|AlternatePart= 
+Variation11=Designator=ENC1|UniqueId=\BHUSMWNZ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=7DDDB149-02B6-4C78-AE23-2C0F37058BB8
+Description=Standalone
+AllowFabrication=0
+ParameterCount=0
+VariationCount=10
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
+Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
+Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
+Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=0|AlternatePart= 
+Variation5=Designator=ST2|UniqueId=\IXJYLMKE|Kind=1|AlternatePart= 
+Variation6=Designator=FIX1|UniqueId=\TWYOUBIB|Kind=1|AlternatePart= 
+Variation7=Designator=J6|UniqueId=\EYZEVIAD|Kind=1|AlternatePart= 
+Variation8=Designator=J4|UniqueId=\TTRYMYHI|Kind=0|AlternatePart= 
+Variation9=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
+Variation10=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -318,7 +342,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1159,7 +1183,7 @@ CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
-NetClassManualEnabled=0
+NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
