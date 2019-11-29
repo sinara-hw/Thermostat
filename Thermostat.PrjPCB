@@ -178,7 +178,7 @@ UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
 Description=Panel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
+VariationCount=12
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -190,6 +190,7 @@ Variation8=Designator=J5|UniqueId=\GDIFAEDX|Kind=1|AlternatePart=
 Variation9=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart= 
 Variation10=Designator=J8|UniqueId=\FUIRURWW|Kind=1|AlternatePart= 
 Variation11=Designator=ENC1|UniqueId=\BHUSMWNZ|Kind=1|AlternatePart= 
+Variation12=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -197,7 +198,7 @@ UniqueID=7DDDB149-02B6-4C78-AE23-2C0F37058BB8
 Description=Standalone
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=11
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -208,6 +209,7 @@ Variation7=Designator=J6|UniqueId=\EYZEVIAD|Kind=1|AlternatePart=
 Variation8=Designator=J4|UniqueId=\TTRYMYHI|Kind=0|AlternatePart= 
 Variation9=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
 Variation10=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
+Variation11=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -477,6 +479,8 @@ OutputName7=ODB++ Files
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Mechanical1=False|AddToAllPlots_Mechanical10=False|AddToAllPlots_Mechanical11=False|AddToAllPlots_Mechanical12=False|AddToAllPlots_Mechanical13=False|AddToAllPlots_Mechanical14=False|AddToAllPlots_Mechanical15=False|AddToAllPlots_Mechanical16=False|AddToAllPlots_Mechanical2=False|AddToAllPlots_Mechanical3=False|AddToAllPlots_Mechanical4=False|AddToAllPlots_Mechanical5=False|AddToAllPlots_Mechanical6=False|AddToAllPlots_Mechanical7=False|AddToAllPlots_Mechanical8=False|AddToAllPlots_Mechanical9=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=True|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
 OutputType8=Plane
 OutputName8=Power-Plane Prints
 OutputDocumentPath8=
@@ -826,6 +830,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
