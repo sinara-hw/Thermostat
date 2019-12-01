@@ -178,7 +178,7 @@ UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
 Description=Panel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
+VariationCount=13
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -191,6 +191,7 @@ Variation9=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart=
 Variation10=Designator=J8|UniqueId=\FUIRURWW|Kind=1|AlternatePart= 
 Variation11=Designator=ENC1|UniqueId=\BHUSMWNZ|Kind=1|AlternatePart= 
 Variation12=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
+Variation13=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -198,7 +199,7 @@ UniqueID=7DDDB149-02B6-4C78-AE23-2C0F37058BB8
 Description=Standalone
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
+VariationCount=12
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -210,6 +211,7 @@ Variation8=Designator=J4|UniqueId=\TTRYMYHI|Kind=0|AlternatePart=
 Variation9=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
 Variation10=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
 Variation11=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
+Variation12=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -830,36 +832,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
