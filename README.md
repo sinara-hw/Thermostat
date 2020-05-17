@@ -6,8 +6,6 @@ Thermostat is 2-channel temperature controller EEM based on the STM32 ARM proces
 
 Design files (schematics, PCB layouts, BOMs) can be found at [Thermostat/Releases](https://github.com/sinara-hw/Thermostat/releases).
 
-This project is mostly edited offline, out of source control, and updated on each release.
-
 ## Wiki
 
 More information can be found on the [wiki](https://github.com/sinara-hw/Thermostat/wiki).
