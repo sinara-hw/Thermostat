@@ -266,7 +266,7 @@ UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
 Description=Panel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=20
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -282,6 +282,11 @@ Variation12=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart=
 Variation13=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart= 
 Variation14=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
 Variation15=Designator=ENC1|UniqueId=\FIWGSKCX\NOHJFAYO|Kind=1|AlternatePart= 
+Variation16=Designator=SCREW1|UniqueId=\FIWGSKCX\HXCJEFEU|Kind=1|AlternatePart= 
+Variation17=Designator=SCREW2|UniqueId=\FIWGSKCX\AOAMUBWH|Kind=1|AlternatePart= 
+Variation18=Designator=FAN1|UniqueId=\FIWGSKCX\YRJYCJDW|Kind=1|AlternatePart= 
+Variation19=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
+Variation20=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -289,7 +294,7 @@ UniqueID=7DDDB149-02B6-4C78-AE23-2C0F37058BB8
 Description=Standalone
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=18
 Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
 Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
 Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
@@ -305,6 +310,9 @@ Variation12=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart=
 Variation13=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
 Variation14=Designator=ST2|UniqueId=\FIWGSKCX\DCXGOTBI|Kind=1|AlternatePart= 
 Variation15=Designator=J6|UniqueId=\FIWGSKCX\EYZEVIAD|Kind=1|AlternatePart= 
+Variation16=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
+Variation17=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
+Variation18=Designator=FIX1|UniqueId=\FIWGSKCX\NPETZYQC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -475,7 +483,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
