@@ -266,27 +266,19 @@ UniqueID=5988DD97-9755-45A0-B196-6D373F7521A0
 Description=Panel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=20
-Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
-Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
-Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
-Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=0|AlternatePart= 
-Variation5=Designator=J6|UniqueId=\EYZEVIAD|Kind=0|AlternatePart= 
-Variation6=Designator=J2|UniqueId=\FLOIEEBE|Kind=0|AlternatePart= 
-Variation7=Designator=J4|UniqueId=\TTRYMYHI|Kind=1|AlternatePart= 
-Variation8=Designator=J5|UniqueId=\GDIFAEDX|Kind=1|AlternatePart= 
-Variation9=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart= 
-Variation10=Designator=J8|UniqueId=\FUIRURWW|Kind=1|AlternatePart= 
-Variation11=Designator=ENC1|UniqueId=\BHUSMWNZ|Kind=1|AlternatePart= 
-Variation12=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
-Variation13=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart= 
-Variation14=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
-Variation15=Designator=ENC1|UniqueId=\FIWGSKCX\NOHJFAYO|Kind=1|AlternatePart= 
-Variation16=Designator=SCREW1|UniqueId=\FIWGSKCX\HXCJEFEU|Kind=1|AlternatePart= 
-Variation17=Designator=SCREW2|UniqueId=\FIWGSKCX\AOAMUBWH|Kind=1|AlternatePart= 
-Variation18=Designator=FAN1|UniqueId=\FIWGSKCX\YRJYCJDW|Kind=1|AlternatePart= 
-Variation19=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
-Variation20=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
+VariationCount=12
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=1|AlternatePart= 
+Variation2=Designator=J4|UniqueId=\TTRYMYHI|Kind=1|AlternatePart= 
+Variation3=Designator=J5|UniqueId=\GDIFAEDX|Kind=1|AlternatePart= 
+Variation4=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart= 
+Variation5=Designator=J8|UniqueId=\FUIRURWW|Kind=1|AlternatePart= 
+Variation6=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
+Variation7=Designator=ENC1|UniqueId=\FIWGSKCX\NOHJFAYO|Kind=1|AlternatePart= 
+Variation8=Designator=SCREW1|UniqueId=\FIWGSKCX\HXCJEFEU|Kind=1|AlternatePart= 
+Variation9=Designator=SCREW2|UniqueId=\FIWGSKCX\AOAMUBWH|Kind=1|AlternatePart= 
+Variation10=Designator=FAN1|UniqueId=\FIWGSKCX\YRJYCJDW|Kind=1|AlternatePart= 
+Variation11=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
+Variation12=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -294,62 +286,17 @@ UniqueID=7DDDB149-02B6-4C78-AE23-2C0F37058BB8
 Description=Standalone
 AllowFabrication=0
 ParameterCount=0
-VariationCount=18
-Variation1=Designator=IC10|UniqueId=\QBHYCLXD\POTBXCIM|Kind=1|AlternatePart= 
-Variation2=Designator=L6|UniqueId=\QBHYCLXD\UTPAZMDO|Kind=1|AlternatePart= 
-Variation3=Designator=C26|UniqueId=\QBHYCLXD\WDQOGOOY|Kind=0|AlternatePart= 
-Variation4=Designator=C27|UniqueId=\QBHYCLXD\UUBEQUKV|Kind=0|AlternatePart= 
-Variation5=Designator=ST2|UniqueId=\IXJYLMKE|Kind=1|AlternatePart= 
-Variation6=Designator=FIX1|UniqueId=\TWYOUBIB|Kind=1|AlternatePart= 
-Variation7=Designator=J6|UniqueId=\EYZEVIAD|Kind=1|AlternatePart= 
-Variation8=Designator=J4|UniqueId=\TTRYMYHI|Kind=0|AlternatePart= 
-Variation9=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
-Variation10=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
-Variation11=Designator=J11|UniqueId=\VSDNBUWJ|Kind=1|AlternatePart= 
-Variation12=Designator=C136|UniqueId=\JSBPJUZH|Kind=1|AlternatePart= 
-Variation13=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
-Variation14=Designator=ST2|UniqueId=\FIWGSKCX\DCXGOTBI|Kind=1|AlternatePart= 
-Variation15=Designator=J6|UniqueId=\FIWGSKCX\EYZEVIAD|Kind=1|AlternatePart= 
-Variation16=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
-Variation17=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
-Variation18=Designator=FIX1|UniqueId=\FIWGSKCX\NPETZYQC|Kind=1|AlternatePart= 
+VariationCount=9
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=1|AlternatePart= 
+Variation2=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
+Variation3=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
+Variation4=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
+Variation5=Designator=ST2|UniqueId=\FIWGSKCX\DCXGOTBI|Kind=1|AlternatePart= 
+Variation6=Designator=J6|UniqueId=\FIWGSKCX\EYZEVIAD|Kind=1|AlternatePart= 
+Variation7=Designator=W1|UniqueId=\QBHYCLXD\BJTOJHRM|Kind=1|AlternatePart= 
+Variation8=Designator=W2|UniqueId=\QBHYCLXD\ROPFENLN|Kind=1|AlternatePart= 
+Variation9=Designator=FIX1|UniqueId=\FIWGSKCX\NPETZYQC|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_4HP.brd
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_4HP.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_4HP.step
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Front.brd
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Front.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Front.step
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Rear.brd
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Rear.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Thermostat\Panel\Panel_Thermostat_Rear.step
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -483,7 +430,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-J105 Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -665,6 +612,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -690,6 +649,18 @@ OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -903,11 +874,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1121,11 +1087,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1245,8 +1211,8 @@ L3=NWEENEEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
+L7=NNEWNNWWENNWNENWN
+L8=NWEENEWNEEENNEENN
 L9=NWEENEEEENEWNEEWW
 L10=NWNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
