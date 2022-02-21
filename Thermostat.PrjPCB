@@ -25,6 +25,7 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -35,6 +36,13 @@ OutputPath=Project Outputs for Zotino
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+CurrentVariant=Standalone
 
 [Preferences]
 PrefsVaultGUID=
@@ -106,7 +114,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=STILMBML
+DocumentUniqueId=VHNQPASN
 
 [Document5]
 DocumentPath=AFE.SchDoc
@@ -191,7 +199,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VHNQPASN
+DocumentUniqueId=BADNDRWC
 
 [Document10]
 DocumentPath=CPU_STM32F4.SchDoc
@@ -267,7 +275,7 @@ Description=Panel
 AllowFabrication=0
 ParameterCount=0
 VariationCount=12
-Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=1|AlternatePart= 
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=0|AlternatePart= 
 Variation2=Designator=J4|UniqueId=\TTRYMYHI|Kind=1|AlternatePart= 
 Variation3=Designator=J5|UniqueId=\GDIFAEDX|Kind=1|AlternatePart= 
 Variation4=Designator=J7|UniqueId=\ENWJBIHK|Kind=1|AlternatePart= 
@@ -287,7 +295,7 @@ Description=Standalone
 AllowFabrication=0
 ParameterCount=0
 VariationCount=9
-Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=1|AlternatePart= 
+Variation1=Designator=IC10|UniqueId=\QBHYCLXD\WZKUQCZE|Kind=0|AlternatePart= 
 Variation2=Designator=J1|UniqueId=\DWTTVLYP|Kind=1|AlternatePart= 
 Variation3=Designator=J3|UniqueId=\LAXPAFAZ|Kind=1|AlternatePart= 
 Variation4=Designator=J11|UniqueId=\FIWGSKCX\IEIEEFLW|Kind=1|AlternatePart= 
@@ -430,7 +438,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-J105 Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1203,6 +1211,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
